@@ -114,12 +114,13 @@ code {
 .RightSide
 {
   display: flex;
-  align-items: center;
+  align-items: start;
   flex-direction: column;
   width: 15%;
   height: 100%;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  padding: 15px;
 }
 .MediaServices
 {
@@ -135,4 +136,20 @@ code {
 }
 .displayService img{
   margin-right: 5px;
+}
+.Genre
+{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 5px;
+}
+.Genre a{
+  margin: 5px;
+  font-size: 12px;
+}
+.Genre a:hover{
+  background-color: #FFA41C;
+  padding: 5px;
+  border-radius: 5px;
 }
