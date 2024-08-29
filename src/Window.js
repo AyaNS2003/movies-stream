@@ -1,6 +1,7 @@
 import React from 'react';
 import LeftSide from './LeftSide';
 import CenterPart from './CenterPart';
+import RightSide from './RightSide';
 
 const Window = () => {
   const styling = {
@@ -17,6 +18,7 @@ const Window = () => {
     <div className="Window" style={styling}>
         <LeftSide/> 
         <CenterPart/>
+        <RightSide/>
     </div>
   );
 };

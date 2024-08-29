@@ -110,3 +110,18 @@ code {
   justify-content: space-between;
   width: 90%;
 }
+
+.RightSide
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 15%;
+  height: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.MediaService
+{
+  background-color: aqua;
+}
