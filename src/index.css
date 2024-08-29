@@ -41,3 +41,30 @@ code {
   margin-bottom: 10px;
   border-radius: 32px;
 }
+.Users
+{
+  height: 25%;
+}
+.Users .usersSmallDiv
+{
+  border: 3px solid #242424;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px black;
+  height: 100%;
+}
+.usersSmallDiv .person
+{
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  padding: 5px;
+}
+.plusIcon
+{
+  position: absolute;
+  bottom: 70px;
+}
