@@ -1,4 +1,3 @@
-import './App.css';
 import Window from './Window';
 
 function App() {

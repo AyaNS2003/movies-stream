@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.LeftSide
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #181715;
+  border-right: 7px solid #1D1D1D;
+  width: 15%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.BtnsPart
+{
+  margin: 10px;
+  background-color: #181715;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.BtnsPart .icon{
+  margin: 10px;
+  height: 24px;
+  width: 24px;
+}
+.profileImage{
+  margin-bottom: 10px;
+  border-radius: 32px;
+}
