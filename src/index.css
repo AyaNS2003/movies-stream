@@ -14,7 +14,6 @@ code {
 .Window
 {
   display: flex;
-  
 }
 .LeftSide
 {
@@ -74,11 +73,13 @@ code {
   .plusIcon
 {
   position: absolute;
-  bottom: 45px;}
+  bottom: 97px;}
 
 .CenterPart
 {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #181715;
   border-right: 7px solid #1D1D1D;
   width: 70%;
@@ -100,4 +101,12 @@ code {
   border: 1px solid gray;
   padding-left: 20px;
   width: 200px;
+}
+
+.Favorites
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
 }

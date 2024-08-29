@@ -5,10 +5,10 @@ import CenterPart from './CenterPart';
 const Window = () => {
   const styling = {
     width: '70%',
-    height: '80%',
+    height: '90%',
     position : 'absolute',
     left: '15%',
-    top: '10%',
+    top: '5%',
     backgroundColor: '#181715',
     borderRadius: '20px',
   };
