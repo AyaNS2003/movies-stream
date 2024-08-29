@@ -121,7 +121,18 @@ code {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-.MediaService
+.MediaServices
 {
-  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  color:white;
+}
+.displayService{
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+  margin: 3px;
+}
+.displayService img{
+  margin-right: 5px;
 }

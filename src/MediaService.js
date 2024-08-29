@@ -12,8 +12,9 @@ const MediaServices = () => {
 
     return (
         <div className="MediaServices">
+            <h3>Media Services</h3>
             {services.map(service => (
-                <div>
+                <div className="displayService">
                     <img src={service.imgLink}/>
                     <p>{ service.ServiceName }</p>
                 </div>
