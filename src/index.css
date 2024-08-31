@@ -73,7 +73,7 @@ code {
   .plusIcon
 {
   position: absolute;
-  bottom: 97px;}
+  bottom: 100px;}
 
 .CenterPart
 {
@@ -152,4 +152,67 @@ code {
   background-color: #FFA41C;
   padding: 5px;
   border-radius: 5px;
+}
+.ContinueWatching
+{
+  width: 90%;
+  display: flex;
+}
+.CWpart1{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: baseline;
+}
+.CWpart1 p{
+  color: gray;
+  margin: 5px;
+}
+.CWpart1 button{
+  background-color: #181715;
+  color: #FFA41C;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 1px 1px 3px black;
+  font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-weight: bold;
+}
+.CWpart2
+{
+  display: flex;
+}
+.playDiv
+{
+  background-color: #121212;
+  color: white;
+  border: #0a0a0a;
+  border-radius: 5px;
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.playDiv p{
+  margin-left: 10px;
+}
+.playDiv img{
+  margin-right: 10px;
+}
+.movieDiv
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+.CWpart3 img
+{
+  margin:10px 30px;
 }

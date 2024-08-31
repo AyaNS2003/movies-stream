@@ -12,4 +12,4 @@ const Genre = () => {
      );
 }
  
-export default Genre;np
+export default Genre;
